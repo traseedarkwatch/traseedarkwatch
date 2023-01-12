@@ -1,0 +1,52 @@
+import bpy
+import os
+
+filename = os.path.splitext(bpy.path.basename(bpy.data.filepath))[0]
+basedir = os.path.dirname(bpy.data.filepath)
+if not basedir:
+    raise Exception("Blend file is not saved")
+
+bpy.ops.object.select_all(action='DESELECT')
+bpy.context.scene.layers[0] = True
+bpy.context.scene.layers[1] = False
+bpy.context.scene.layers[2] = False
+bpy.context.scene.layers[3] = False
+bpy.context.scene.layers[4] = False
+
+exportfile = basedir + "\\" + filename + '_1.dae'
+bpy.context.scene.layers[0] = True
+bpy.ops.object.select_all(action='SELECT')
+bpy.context.scene.objects.active = bpy.context.selected_objects[0]
+bpy.ops.wm.collada_export(filepath=exportfile, selected=True)
+
+exportfile = basedir + "\\" + filename + '_2_LOD2.dae'
+bpy.ops.object.select_all(action='DESELECT')
+bpy.context.scene.layers[1] = True
+bpy.context.scene.layers[0] = False
+bpy.ops.object.select_all(action='SELECT')
+bpy.context.scene.objects.active = bpy.context.selected_objects[0]
+bpy.ops.wm.collada_export(filepath=exportfile, selected=True)
+
+exportfile = basedir + "\\" + filename + '_3_LOD1.dae'
+bpy.ops.object.select_all(action='DESELECT')
+bpy.context.scene.layers[2] = True
+bpy.context.scene.layers[1] = False
+bpy.ops.object.select_all(action='SELECT')
+bpy.context.scene.objects.active = bpy.context.selected_objects[0]
+bpy.ops.wm.collada_export(filepath=exportfile, selected=True)
+
+exportfile = basedir + "\\" + filename + '_4_LOD0.dae'
+bpy.ops.object.select_all(action='DESELECT')
+bpy.context.scene.layers[3] = True
+bpy.context.scene.layers[2] = False
+bpy.ops.object.select_all(action='SELECT')
+bpy.context.scene.objects.active = bpy.context.selected_objects[0]
+bpy.ops.wm.collada_export(filepath=exportfile, selected=True)
+
+exportfile = basedir + "\\" + filename + '_5_PHYS.dae'
+bpy.ops.object.select_all(action='DESELECT')
+bpy.context.scene.layers[4] = True
+bpy.context.scene.layers[3] = False
+bpy.ops.object.select_all(action='SELECT')
+bpy.context.scene.objects.active = bpy.context.selected_objects[0]
+bpy.ops.wm.collada_export(filepath=exportfile, selected=True)

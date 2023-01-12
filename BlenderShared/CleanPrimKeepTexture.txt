@@ -1,0 +1,9 @@
+import bpy
+bpy.ops.object.modifier_add(type='DECIMATE')
+bpy.context.object.modifiers["Decimate"].decimate_type = 'DISSOLVE'
+bpy.context.object.modifiers["Decimate"].delimit = {'NORMAL'}
+bpy.ops.object.modifier_apply(apply_as='DATA', modifier="Decimate")
+bpy.ops.object.editmode_toggle()
+bpy.ops.mesh.select_all(action='TOGGLE')
+bpy.ops.mesh.remove_doubles()
+bpy.ops.object.editmode_toggle()
