@@ -6,7 +6,7 @@ My language experience:
 - **ASP.NET:** ⭐⭐ Yes, I have experience here, but am very out of touch with it. I can read it and work with it, but it's changed a lot since I used it last.
 - **Blazor:** ⭐⭐ I just started working in Blazor, building a web site from scratch using Blazor with C#. Since it is a lot of C# and some HTML, it has been easy to pick up.
 - **C#:** ⭐⭐⭐⭐ Mostly coding in .NET 6.0. This is my go-to and strongest coding experience.
-- **HTML:** ⭐⭐ I used to do web design starting with HTML 2.0 and stopped when XHTML 1.1 was still new. I still do some web work with HTML 5, but it really isn't a forte.
+- **HTML/CSS:** ⭐⭐ I used to do web design starting with HTML 2.0 and stopped when XHTML 1.1 was still new. I still do some web work with HTML 5, but it really isn't a forte.
 - **JavaScript:** ⭐⭐⭐ I've worked with JS since working with HTML, and have never gotten away from it. Haven't worked much with web/JavaScript frameworks.
 - **LSL:** ⭐⭐ The Second Life Linden Scripting Language. A bastard child that can barely be called a "language" let alone "scripting" but it is what Second Life uses, so I learned it.
 - **PHP:** ⭐⭐ I used to modify WordPress and PHPBB. I can still work with it, but I prefer to let others handle it where possible.
@@ -29,4 +29,4 @@ Here's where you can find me:
 - https://www.darkwatch.me - Trasee's Furventures, my personal blog.
 - https://www.chitaucity.com - Chi Tau City, a Second Life community I co-founded back in 2018.
 - https://secondlife.com - I'm Trasee Darkwatch in Second Life.
-- https://discord.com - I'm Trasee#5197 on Discord.
+- https://discord.com - I'm trasee on Discord.
