@@ -3,7 +3,7 @@ Hello there! 😸
 I am @traseedarkwatch, also known as Trasee Darkwatch, Trasee Darque, or just Trasee. I'm from California, mostly seen in Second Life or various other online communities. I've been working with code since BASIC on the Commodore-64 and have been online since the CompuServe days. 🙀
 
 My language experience:
-- **ASP.NET:** ⭐⭐ Yes, I have experience here, but am very out of touch with it. I can read it and work with it, but it's changed a lot since I used it last.
+- **ASP.NET:** ⭐⭐ Yes, I have experience here, as this is where I started with VB.NET. I had a several year gap, and started again with Blazor, so experience here is spotty.
 - **Blazor:** ⭐⭐ I just started working in Blazor, building a web site from scratch using Blazor with C#. Since it is a lot of C# and some HTML, it has been easy to pick up.
 - **C#:** ⭐⭐⭐⭐ Been working with C# since .NET 3.5. This is my go-to and strongest coding experience.
 - **HTML/CSS:** ⭐⭐ I used to do web design starting with HTML 2.0 and stopped when XHTML 1.1 was still new. I still do some web work with HTML 5, but it really isn't a forte.
